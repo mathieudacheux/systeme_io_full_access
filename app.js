@@ -2,8 +2,7 @@ const options = {
 	method: "GET",
 	headers: {
 		accept: "application/json",
-		"X-API-Key":
-			"jo4810t7qouymmk6uztyp7bzetr1ohbbpt64ml4njqp20pdlde2a9o1jmrxybole"
+		"X-API-Key": process.env.SYSTEME_IO_API_KEY
 	}
 }
 
