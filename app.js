@@ -46,7 +46,7 @@ const verifyIfUserHasFullAccess = async (email) => {
 	return userHasFullAccess?.items[0]?.accessType === "full_access"
 }
 
-const email = "maelcolome.pro@icloud.com"
+const email = window.prompt("Ton adresse email")
 
 const userHasFullAccess = await verifyIfUserHasFullAccess(email)
 
